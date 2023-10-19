@@ -44,7 +44,7 @@ const SundaysPage = () => {
         setSundayDates(sundays);
         setError(null);
       } else {
-        setError("Please select dates with a 2-years difference.");
+        setError("Please choose dates that are 2 years apart.");
         setSundayDates([]);
         setSundayDates1([]);
       }
